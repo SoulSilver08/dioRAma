@@ -1,0 +1,20 @@
+[
+  {
+    "MountId": "56e62dd7-241f-41e9-8c6b-dd4ca4513e62",
+    "AncestorCsetIds": [
+      8
+    ],
+    "SourceCsetId": 10,
+    "DestinationCsetId": 8,
+    "FileConflicts": [
+      {
+        "Path": "/Assets/Scenes/neoCity.unity",
+        "ItemId": 1063,
+        "ParentItemId": 339,
+        "BaseRevId": 1545,
+        "SourceRevId": 1679,
+        "DestinationRevId": 1545
+      }
+    ]
+  }
+]

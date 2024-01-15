@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="DioRAma.Bottom" size="6.000000 6.000000"/>
+        <ImageTarget name="DioRAma.Front" size="6.000000 6.000000"/>
+        <ImageTarget name="DioRAma.Left" size="6.000000 6.000000"/>
+        <ImageTarget name="DioRAma.Top" size="6.000000 6.000000"/>
+        <ImageTarget name="DioRAma.Back" size="6.000000 6.000000"/>
+        <ImageTarget name="DioRAma.Right" size="6.000000 6.000000"/>
+        <MultiTarget name="DioRAma">
+            <Part name="DioRAma.Left" translation="-3.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="DioRAma.Right" translation="3.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="DioRAma.Front" translation="0 0 3.0" rotation="AD: 1 0 0 0"/>
+            <Part name="DioRAma.Back" translation="0 0 -3.0" rotation="AD: 0 1 0 180"/>
+            <Part name="DioRAma.Top" translation="0 3.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="DioRAma.Bottom" translation="0 -3.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
